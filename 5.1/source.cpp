@@ -1,6 +1,5 @@
-#include "stdafx.h"
-#include <isostream>
-using namspace std;
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -21,11 +20,11 @@ int main()
     *p2 = 53;
     cout << "*p1 == " << *p1 << endl;
 
-    cout << "*p2 ==" << *p2 << end1;
+    cout << "*p2 ==" << *p2 << endl;
 
     p1 = new int;
     *p1 = 88;
-    cout << "*p1 == " << *p1 << end1;
+    cout << "*p1 == " << *p1 << endl;
 
     cout << "*p2 == " << *p2 << endl;
 
